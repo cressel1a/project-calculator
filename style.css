@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 350px;
+  height: 500px;
+  background-color: black;
+  border-radius: 40px;
+}
+
+.conclusion {
+  position: relative;
+  color: white;
+  left: 290px;
+  top: 30px;
+}
+
+.math-symbols {
+  display: flex;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  flex-direction: column;
+}
+
+.other {
+  display: flex;
+  position: relative;
+  top: 40px;
+  left: 15px;
+  gap: 5px;
+}
+
+.ac, .percent, .pn {
+  width: 65px;
+  height: 65px;
+  background-color: #D4D4D2;
+  border-radius: 50%;
+  font-size: 25px;
+  padding: 17px;
+  text-align: center;
+  margin: 5px;
+}
+
+.set1, .set2, .set3, .set4 {
+  display: flex;
+  gap: 5px;
+}
+
+.number {
+  position: relative;
+  left: 15px;
+  bottom: -40px;
+  width: 65px;
+  height: 65px;
+  background-color: #505050;
+  border-radius: 50%;
+  font-size: 25px;
+  padding: 17px;
+  text-align: center;
+  margin: 5px;
+  color: white;
+}
+
+.division, .times, .minus, .plus, .equal {
+  width: 65px;
+  height: 65px;
+  background-color: #FF9500;
+  border-radius: 50%;
+  font-size: 40px;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+  color: white;
+}
+
+.zero {
+  width: 9.5rem;
+  border-radius: 10rem;
+  margin-right: 0;
+  text-align: left;
+  padding-left: 25px;
+}
